@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:stretchColumns="1">
+	
+	<TextView
+		android:text="Les items précédés d'un V ouvrent un sous-menu" />
+	
+	<View
+		android:layout_height="2dip"
+		android:background="#FF909090" />
+	
+	<TableRow>
+		<TextView
+			android:text="N'ouvre pas un sous-menu"
+			android:layout_column="1"
+			android:padding="3dip" />
+		
+		<TextView
+			android:text="Non !"
+			android:gravity="right"
+			android:padding="3dip" />
+	</TableRow>
+	
+	<TableRow>
+		<TextView
+			android:text="V" />
+		
+		<TextView
+			android:text="Ouvre un sous-menu"
+			android:layout_column="1"
+			android:padding="3dip" />
+		
+		<TextView
+			android:text="Là si !"
+			android:gravity="right"
+			android:padding="3dip" />
+	</TableRow>
+	
+	<View
+		android:layout_height="2dip"
+		android:background="#FF909090" />
+	
+	<TableRow>
+		<TextView
+			android:text="V" />
+		
+		<TextView
+			android:text="Ouvre un sous-menu"
+			android:padding="3dip" />
+	</TableRow>
+	
+	<View
+		android:layout_height="2dip"
+		android:background="#FF909090" />
+	
+	<TableRow>
+		<TextView
+			android:layout_column="1"
+			android:layout_span="2"
+			android:text="Cet item s'étend sur deux colonnes, cool hein ?"
+			android:padding="3dip" />
+	</TableRow>
+</TableLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">IMC Finder</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Préférences</string>
+    <string name="poids1">Poids :</string>
+    <string name="poids2">Entrez votre poids</string>
+    <string name="taille1">Taille :</string>
+    <string name="taille2">Entrez votre taille</string>
+    <string name="mesure1">Mètres</string>
+    <string name="mesure2">Centimètres</string>
+    <string name="superMode">Je suis un Super Sayien *_*</string>
+    <string name="calcImc">Calculer l\'IMC</string>
+    <string name="raz">Réinitialiser</string>
+    <string name="result1">Résultat :</string>
+    <string name="result2">Vous devez cliquer sur le bouton « Calculer l\'IMC » pour obtenir un résultat.</string>
+</resources>
